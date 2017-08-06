@@ -16,7 +16,7 @@ $ curl -H "Content-Type: application/json" -X GET http://localhost:5000/i
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <title>Redirecting...</title>
 <h1>Redirecting...</h1>
-<p>You should be redirected automatically to target URL: <a href="HTTP://davtyan.org/%3Cmartin%3E">HTTP://davtyan.org</a>.  If not click the link.
+<p>You should be redirected automatically to target URL: <a href="HTTP://davtyan.org">HTTP://davtyan.org</a>.  If not click the link.
 ```
 
 ## Design
