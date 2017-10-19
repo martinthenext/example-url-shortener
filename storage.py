@@ -34,7 +34,7 @@ def setup():
     url_collection = client[settings.DB][settings.URL_COLLECTION]
     url_collection.delete_many({})
     
-    url_collection.ensure_index([('_id', HASHED)])
+    url_collection.create_index([('_id', HASHED)])
 
 
 def get_new_id(client):
